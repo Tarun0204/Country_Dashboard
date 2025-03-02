@@ -1,0 +1,103 @@
+.countries-container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  overflow-x: auto;
+}
+
+.country-heading {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.country-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.country-headings {
+  background-color: #f9f9f9;
+  color: #000;
+}
+
+.country-rows th,
+.country-body-row td {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.country-para {
+  font-size: 16px;
+  color: #444;
+}
+
+@media screen and (max-width: 768px) {
+  .countries-container {
+    padding: 10px;
+  }
+
+  .country-heading {
+    font-size: 20px;
+  }
+
+  .country-table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .country-table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .country-rows th,
+  .country-body-row td {
+    font-size: 16px;
+    padding: 12px;
+    width: 100%;
+  }
+}
+
+.edit-button {
+  margin-right: 10px;
+  padding: 6px 12px;
+  cursor: pointer;
+  background-color: #ffc107;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+}
+
+.delete-button {
+  margin-left: 10px;
+  padding: 6px 12px;
+  cursor: pointer;
+  background-color: red;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+}
+
+.empty-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

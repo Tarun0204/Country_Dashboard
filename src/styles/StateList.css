@@ -1,0 +1,36 @@
+.add-state-btn {
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  padding: 8px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.add-state-btn:hover {
+  color: #000;
+  border: 2px solid #007bff;
+  background-color: transparent;
+}
+
+.state-container {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.state-container th,
+.state-container td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.state-container th {
+  color: #000;
+  font-size: 16px;
+  font-weight: normal;
+  background-color: #f1f5f9;
+}

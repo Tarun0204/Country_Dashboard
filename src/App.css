@@ -1,0 +1,37 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-heading {
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+  margin: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .main-heading {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+  }
+}
+
+.add-country-button {
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.add-country-button:hover {
+  color: #000;
+  border: 2px solid #007bff;
+  background-color: transparent;
+}
