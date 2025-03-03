@@ -101,3 +101,7 @@
   align-items: center;
   justify-content: center;
 }
+
+.empty-para {
+  text-align: center;
+}

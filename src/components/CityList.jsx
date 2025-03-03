@@ -67,7 +67,7 @@ const CityList = ({ country, state, setCountries }) => {
                   className="edit-button"
                   onClick={() => updateCity(id, name)}
                 >
-                  Edit
+                  Update
                 </button>
                 <button
                   type="button"
